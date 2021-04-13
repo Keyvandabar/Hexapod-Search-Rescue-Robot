@@ -1,0 +1,8 @@
+javac RCServer.java
+javac Steering.java
+javah -jhi Steering
+///Gyro Module///
+cd Java/LandCruiser/ && sudo java -Djava.library.path=. RCServer
+
+///Camera Module///
+sudo python3 /home/pi/pi-camera-stream-flask/main.py
