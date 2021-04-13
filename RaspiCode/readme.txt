@@ -1,1 +1,2 @@
 
+The code found in this section is entirely made by me with the help of the SSC-32U Documentation found here: https://www.robotshop.com/media/files/pdf2/lynxmotion_ssc-32u_usb_user_guide.pdf. The inverse kinematic equations are present in the code but don't provide any actual function to the project and is for future iterations of the project. The source for that is https://toglefritz.com/hexapod-inverse-kinematics-equations/
