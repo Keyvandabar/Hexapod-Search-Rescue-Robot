@@ -19,6 +19,7 @@ RotY = float(0.0)
 global FemurAngle_1, TibiaAngle_1, CoxaAngle_1
 
 
+'''
 /*
 **********************************************
 Title: SSC-32U
@@ -48,6 +49,7 @@ robot was to traverse more difficult terrain in furute iterations.
 The inverse kinematic equations are present in the code but DO NOT provide any actual function to the project and is for future iterations of the project. 
 The source for that is https://toglefritz.com/hexapod-inverse-kinematics-equations/
 */
+'''
 
 
 s = serial.Serial('/dev/ttyUSB0', 115200, timeout = 1.0)#9600//38400//115200
