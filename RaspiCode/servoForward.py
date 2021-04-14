@@ -18,7 +18,35 @@ RotX = float(0.0)
 RotY = float(0.0)
 global FemurAngle_1, TibiaAngle_1, CoxaAngle_1
 
-
+/*
+**********************************************
+Title: SSC-32U
+Author: Lynxmotion
+Date: unknown
+Code version: *
+Availability: https://www.robotshop.com/media/files/pdf2/lynxmotion_ssc-32u_usb_user_guide.pdf
+- The PDF / Documentation provided with the SSC-32U provided decent instructions on how to 
+communicate through serial communication from the Raspberry Pi to the SSC-32U. The most useful 
+part of this documentation was to discover its ability to send a signal to numerous servo motors 
+at the same time.
+*** THE PRIMARY FUNCTION OF THIS CODE IS TO ONLY WORK AS A KIND OF LIBRARY TO WORK FROM
+***************************************************
+*/
+/*
+**********************************************
+Title: Inverse Kinematic Equations (def equ)
+Author: TogleFritz
+Date: unknown
+Code version: *
+Availability: https://toglefritz.com/hexapod-inverse-kinematics-equations/
+- The inspiration to adopt Inverse Kinematics came from this source and provided 
+some insight on how a mathematical approach is the best course of action if the 
+robot was to traverse more difficult terrain in furute iterations. 
+*** THIS BIT OF CODE SERVES 0 ACTUAL FUNCTION IN THE OPERATION OF THIS PROJECT
+***************************************************
+The inverse kinematic equations are present in the code but DO NOT provide any actual function to the project and is for future iterations of the project. 
+The source for that is https://toglefritz.com/hexapod-inverse-kinematics-equations/
+*/
 
 s = serial.Serial('/dev/ttyUSB0', 115200, timeout = 1.0)#9600//38400//115200
 
