@@ -1,3 +1,4 @@
+I have seperated the Java folder and the Flask folder to better show that the codes bare bones were of other people and edited/manipulated for my own variables and use.
 
 The code found in this section is entirely made by me with the help of the SSC-32U Documentation found here: 
 /*
