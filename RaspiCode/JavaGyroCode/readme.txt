@@ -10,6 +10,9 @@
             transmit data in real-time. **This is actually not even used within mainactivity.java but served as
             the stepping stone for the research and development
             *** THE PRIMARY FUNCTION OF THIS CODE IS TO ONLY CONTROL THE GYROSCOPE SERVO MECHANISM
+	 *** The functions are created by Daniel Ross and the limits and variables manipulated for my
+		gyroscope functionality. This is the part of the project that opens a network socket and
+		sends a pulsewidth variable to the server to extract the integer value from the string.
             ***************************************************
             */
 
