@@ -1,5 +1,22 @@
 import java.io.*;
 import java.net.*;
+/*
+            **********************************************
+            Title: Android Remote Control Part 1*
+            Author: Daniel Ross
+            Date: Feb 02, 2017
+            Code version: *
+            Availability: www.youtube.com/watch?v=Zgmaho84d2I&list=PL6LQDONHZvFJH6b_YFybR9Bi3nXPFhjU5&index=13.
+            - The primary function of this code allowed me to get a good introduction to android studio code and
+            presented a javascript alternative to open a network socket with the Raspberry pi in order to
+            transmit data in real-time. **This is actually not even used within mainactivity.java but served as
+            the stepping stone for the research and development
+            *** THE PRIMARY FUNCTION OF THIS CODE IS TO ONLY CONTROL THE GYROSCOPE SERVO MECHANISM
+	    *** The functions are created by Daniel Ross and the limits and variables manipulated for my
+		gyroscope functionality. This is the part of the project that opens a network socket and
+		sends a pulsewidth variable to the server to extract the integer value from the string.
+            ***************************************************
+            */
 
 public class RCServer {
 
