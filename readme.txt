@@ -1,4 +1,5 @@
 This is a repository for final project code for the Hexapod Search and Rescue Robot.
+https://www.youtube.com/watch?v=3XjryJXB6cI&t - Demo video
 Course Title: PROJ220
 - Final version of the COAP 222 Final project included designing, creating, and coding a fully wireless Hexapod Search & Rescue Robot.
 - Javascript and Node.js to create network sockets for real-time transmission of data between a client and server with a Raspberry Pi Microcontroller and Android Smartphone app. As well as executing SSH scripts from the smartphone on the Raspberry Pi.
